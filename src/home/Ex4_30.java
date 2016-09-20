@@ -6,7 +6,7 @@ public class Ex4_30 {
 
 	public static void main(String[] args) {
 		loop : while (true) {
-			System.out.print("(1) square" + '\n' + "(2) square root" + '\n' + "(3) log" + "\n"
+			System.out.print("(1) square" + '\n' + "(2) square root" + '\n' + "(3) natural log" + "\n"
 					+ " 원하는 메뉴 (1~3)를 선택하세요. (종료:0)>");
 			Scanner scanner = new Scanner(System.in);
 
@@ -54,7 +54,7 @@ public class Ex4_30 {
 					}else if(num4 == 99) {
 						break loop;
 					}
-//					double num4_1 = Math.log(num4);			로그 함수를 못찾았음
+					double num4_1 = Math.log(num4);			// 로그 함수를 못찾았음
 					System.out.println(num4_1);
 					continue;
 				}
@@ -68,8 +68,8 @@ public class Ex4_30 {
 	System.out.println("프로그램을 종료합니다.");
 	}
 
-	private static double (double num4, double d) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+//	private static double (double num4, double d) {
+//		// TODO Auto-generated method stub
+//		return 0;
+//	}
 }
