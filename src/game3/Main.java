@@ -20,7 +20,7 @@ public class Main {
 			} else if (num == 2) {
 				Dice.dice();				
 			} else if (num == 3) {
-				
+				Updown.updown();
 			} else if (num == 0) {
 				System.out.println("-게임종료-");
 				break;
